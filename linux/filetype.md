@@ -1,4 +1,4 @@
-**hello**
+# Типы файлов Linux
 ```
 $ ls -hF -la --sort=extension
 total 10K

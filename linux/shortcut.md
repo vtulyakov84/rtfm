@@ -1,4 +1,6 @@
-# Linux Console
+# Сочетания клавиш Linux
+
+## Linux Terminal
 
 <table>
     <tr>

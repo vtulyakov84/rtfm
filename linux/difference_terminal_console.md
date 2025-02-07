@@ -1,5 +1,5 @@
-# Отличие между терминалом и консолью в ОС семейства Linux/Unix.
-_(the difference between a terminal and a console in the Linux/Unix OS family)_
+# Отличие между терминалом и консолью в Linux
+_(the difference between a terminal and a console in Linux)_
 
 ### !!! ВНИМАНИЕ СТАТЬЯ ЯВЛЯЕТСЯ ЧЕРНОВИКОМ !!!
 
@@ -33,7 +33,7 @@ _(the difference between a terminal and a console in the Linux/Unix OS family)_
 ## Виртуальный терминал
 ...есть понимание, но требуется осознание и формулировка, что виртуальным терминалом является TTY-драйвер (он же "Подсистема TTY", он же "TTY-абстракция") - система предназначеная для использования одного терминала несколькими процессами.
 ## Чтиво по теме
-1. [The TTY demystified (https://www.linusakesson.net/programming/tty)](https://www.linusakesson.net/programming/tty/)
+1. [The TTY demystified](https://www.linusakesson.net/programming/tty/)
 
 С уважением\
 к читателю и критику\
