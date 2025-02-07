@@ -1,7 +1,7 @@
 # Руководство к прочтению
 _(Read The Following Manual)_
 
-## Форматы
+## Форматы файлов, протоколы обмена
 
 [Язык разметки Markdown](format/Markdown.md)
 
