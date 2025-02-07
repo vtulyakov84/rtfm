@@ -1,8 +1,8 @@
 # Linux Console
 
-<table>s
+<table>
     <tr>
-        <th>Сочетание клавиш<th>
+        <th>Сочетание клавиш</th>
         <th>Назначение</th>
     </tr>
     <tr>
