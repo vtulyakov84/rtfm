@@ -3,7 +3,7 @@ _(Read The Following Manual)_
 
 ## Форматы
 
-[Язык разметки Markdown](format\Markdown.md)
+[Язык разметки Markdown](format/Markdown.md)
 
 ## Linux
 
