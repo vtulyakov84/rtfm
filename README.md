@@ -1,4 +1,4 @@
-## Quick setup - if you've done thos kind of thing before:
+## Quick setup - if you've done this kind of thing before:
 https://github.com/vtulyakov84/rtfm.git
 
 ## ... or create a new repository on the command line:
