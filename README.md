@@ -7,15 +7,15 @@ _(Read The Following Manual)_
 
 ## Linux
 
-[Отличие между терминалом и консолью в Linux](linux\difference_terminal_console.md)
+[Отличие между терминалом и консолью в Linux](linux/difference_terminal_console.md)
 
-[Типы файлов Linux](linux\filetype.md)
+[Типы файлов Linux](linux/filetype.md)
 
-[Сочетания клавиш Linux](linux\shortcut.md)
+[Сочетания клавиш Linux](linux/shortcut.md)
 
 ## Разное
 
-[Фонетика шестнадцатиричных чисел](misc\hex_phonetics.md)
+[Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
 
 [//]: <> (## Quick setup - if you've done this kind of thing before:)
 [//]: <> (https://github.com/vtulyakov84/rtfm.git)
