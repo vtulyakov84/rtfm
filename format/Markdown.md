@@ -260,7 +260,7 @@ Some content
 
 <address@example.com>
 
-## HTML
+## Коды клавиатурных клавиш
 
 ```
 <kbd>CTRL</kbd> + <kbd>P</kbd>
