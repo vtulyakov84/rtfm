@@ -48,9 +48,3 @@ _(the difference between a terminal and a console in Linux)_
 
 ## Чтиво по теме
 1. [The TTY demystified](https://www.linusakesson.net/programming/tty/)
-
----
-
-_С уважением\
-к читателю и критику\
-Виктор Туляков._
