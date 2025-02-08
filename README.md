@@ -16,6 +16,10 @@ _(пусто)_
 
 [Сочетания клавиш Linux](linux/shortcut.md)
 
+### Разработка модулей ядра
+
+[Alt Linux. Сборка объекта ядра](linux/alt_compile_ko_1.md)
+
 ## Разное
 
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
