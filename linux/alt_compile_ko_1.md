@@ -1,6 +1,9 @@
 ## AltLinux. Сборка объекта ядра
 _(altlinux make kernel object file)_
 
+
+Источник: [ALT Linux Wiki. Kernel/build module](https://www.altlinux.org/Kernel/build_module)
+
 ### Обновляем компоненты ОС
 ```
 [user@vhost-129 ~]$ sudo apt-get update -y

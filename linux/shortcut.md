@@ -9,6 +9,16 @@
     </tr>
     <tr>
         <td>
+            <kbd>Ctrl</kbd> +
+            <kbd>Alt</kbd> +
+            <kbd>T</kbd>
+        </td>
+        <td>
+            Открыть терминал
+        </td>
+    </tr>
+    <tr>
+        <td>
             <kbd>Ctrl</kbd> + 
             <kbd>Shift</kbd> + 
             <kbd>T</kbd>
@@ -65,6 +75,42 @@
         </td>
         <td>
             Установить курсор в конец строки
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <kbd>Ctrl</kbd> +
+            <kbd>L</kbd>
+        </td>
+        <td>
+            Очистить весь вывод терминала
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <kbd>Ctrl</kbd> +
+            <kbd>S</kbd>
+        </td>
+        <td>
+            Приостановить ввод/вывод терминала
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <kbd>Ctrl</kbd> +
+            <kbd>Q</kbd>
+        </td>
+        <td>
+            Возобновать ввод/вывод терминала
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <kbd>Ctrl</kbd> +
+            <kbd>Z</kbd>
+        </td>
+        <td>
+            Отправить текущий процесс в фоновый режим
         </td>
     </tr>
     <tr>
@@ -129,7 +175,14 @@
             Завершить работу терминала, аналогично вводу команды <kbd>$ exit</kbd>
         </td>
     </tr>
+    <tr>
+        <td>
+            <kbd></kbd> +
+            <kbd></kbd> +
+            <kbd></kbd>
+        </td>
+        <td>
+            .
+        </td>
+    </tr>
 </table>
-
-
-<kbd></kbd> + <kbd></kbd> + <kbd></kbd>
