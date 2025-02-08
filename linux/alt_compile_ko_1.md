@@ -121,7 +121,7 @@ make[1]: выход из каталога «/usr/src/linux-6.1.127-un-def-alt1»
 [user@vhost-129 hello_printk]$ 
 ```
 
-Просматриваем в каталоге файлы:
+Просматриваем в каталоге созданные файлы:
 ```
 [user@vhost-129 hello_printk]$ ls -uF -l --sort=extension
 итого 204
