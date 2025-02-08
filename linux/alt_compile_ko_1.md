@@ -1,14 +1,14 @@
-## AltLinux. Сборка объектов ядра
+## AltLinux. Сборка объекта ядра
 
-> _Долгое время разбирался как собрать объект ядра именно под AltLinux, поскольку под Debian всё собиралось без проблем по книге источник-1 "Linux. Модули ядра. Пособие по программированию (авторы Peter Jay Salzman, Michael Burian, Ori Pomerantz, Bob Mottram,
+> _Долгое время разбирался как собрать объект ядра именно под AltLinux, поскольку под Debian всё собиралось без проблем по книге "Linux. Модули ядра. Пособие по программированию (авторы Peter Jay Salzman, Michael Burian, Ori Pomerantz, Bob Mottram,
 Jim Huang)"_
 
 > _NB! Необходимо попробовать установку на чистую хост-систему AltLinux_
 
-Источник-2: [Как собрать внешний модуль ядра под Альт](https://www.altlinux.org/Kernel/build_module)
+Источник-1: [Как собрать внешний модуль ядра под Альт](https://www.altlinux.org/Kernel/build_module)
 
 ## Установка заголовочных файлов
-Установка заголовочных файлов для сборки объекта ядра выполнялась согласно Источник-2.
+Установка заголовочных файлов для сборки объекта ядра выполнялась согласно Источник-1.
 
 Для сборки внешнего модуля ядра, например, под флейвор `std-def` необходим пакет `kernel-headers-modules-std-def` и базовая сборочная среда (устанавливаемая пакетом `rpm-build`):
 
@@ -45,22 +45,25 @@ $ mkdir -p ~/develop/kernel/hello1 && cd ~/develop/kernel/hello1
 
 Создаём файл hello-1.c следующего содержания:
 
-```
+```с
 /*
 * hello-1.c – простейший модуль ядра.
 */
-#include <linux/kernel.h> /* необходим для pr_info() */
-#include <linux/module.h> /* необходим для всех модулей */
+#include <linux/kernel.h>    /* необходим для pr_info() */
+#include <linux/module.h>    /* необходим для всех модулей */
+
 int init_module(void)
 {
-pr_info("Hello world 1.\n");
-/* Если вернётся не 0, значит, init_module провалилась; модули загрузить не
-получится. */
-return 0;
+    pr_info("Hello world 1.\n");
+
+    /* Если вернётся не 0, значит, init_module провалилась; модули загрузить не
+       получится. */
+    return 0;
 }
+
 void cleanup_module(void)
 {
-pr_info("Goodbye world 1.\n");
+    pr_info("Goodbye world 1.\n");
 }
 MODULE_LICENSE("GPL");
 ```
@@ -69,11 +72,13 @@ MODULE_LICENSE("GPL");
 
 ```
 obj-m += hello-1.o
+
 PWD := $(CURDIR)
+
 all:
-make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+    make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 clean:
-make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+    make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```
 
 Выполняем сборку модуля ядра:
