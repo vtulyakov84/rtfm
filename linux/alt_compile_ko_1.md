@@ -190,7 +190,6 @@ hello_printk ; USER=root ; COMMAND=/sbin/rmmod hello_printk
 
 
 ## Чтиво по теме
-[ALT Linux Wiki. Kernel/build module](https://www.altlinux.org/Kernel/build_module)
 
 [Linux. Модули ядра. Пособие по программированию (авторы: Peter Jay Salzman, Michael Burian, Ori Pomerantz, Bob Mottram, Jim Huang)]()
 
