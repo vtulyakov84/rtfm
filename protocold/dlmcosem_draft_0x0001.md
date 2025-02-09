@@ -61,7 +61,7 @@ short_name = base_name + ((attribute_index - 1) * 0x08)
             <kbd>(class_id = 1, version = 0)</kbd>
         </td>
     </tr>
-    <tr>s
+    <tr>
         <td colspan=2>Атрибут</td>
         <td>Тип атрибута</td>
         <td>Описание атрибута</td>
