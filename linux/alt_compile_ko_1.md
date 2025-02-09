@@ -17,8 +17,6 @@ _(altlinux make kernel object file)_
 
 [user@vhost-129 ~]$ uname -r
 6.1.115-un-def-alt1
-
-[user@vhost-129 ~]$ 
 ```
 
 ### Выполняем настройку среды разработки
@@ -29,6 +27,7 @@ _(altlinux make kernel object file)_
 [user@vhost-129 ~]$ sudo apt-get install rpm-build kernel-headers-modules-std-def -y
 ...
 Завершено.
+
 [user@vhost-129 ~]$ 
 ```
 
@@ -43,7 +42,6 @@ Checking for available un-def kernel packages...
 [00:00:02] Generating module dependencies on host ...
 ...
 Done.
-[user@vhost-129 ~]$ 
 ```
 
 Просмотрим версию ядра после обновления:
@@ -63,7 +61,6 @@ $ sudo reboot
 Создаём рабочий каталог и переходим в него:
 ```
 [user@vhost-129 hello_printk]$ mkdir -p ~/develop/kernel/hello_printk && cd ~/develop/kernel/hello_printk
-[user@vhost-129 hello_printk]$ 
 ```
 
 Создаём файл исходного кода модуля ядра:
@@ -73,7 +70,7 @@ $ vim hello_printk.c
 
 ...следующего содержания:
 
-```
+```c
 #include <linux/init.h>
 #include <linux/module.h>
 
@@ -101,7 +98,7 @@ $ vim Makefile
 
 ...следующего содержания:
 
-```
+```Makefile
 obj-m += hello_printk.o
 PWD := $(CURDIR)
 all:
@@ -123,7 +120,6 @@ make[1]: вход в каталог «/usr/src/linux-6.1.127-un-def-alt1»
   BTF [M] /home/user/develop/kernel/hello_printk/hello_printk.ko
 Skipping BTF generation for /home/user/develop/kernel/hello_printk/hello_printk.ko due to unavailability of vmlinux
 make[1]: выход из каталога «/usr/src/linux-6.1.127-un-def-alt1»
-[user@vhost-129 hello_printk]$ 
 ```
 
 Просматриваем в каталоге созданные файлы:
@@ -152,32 +148,27 @@ depends:
 retpoline:      Y
 name:           hello_printk
 vermagic:       6.1.127-un-def-alt1 SMP preempt mod_unload modversions 
-[user@vhost-129 hello_printk]$ 
 ```
 
 Выполняем загрузку `hello_printk.ko` в адресное пространство ядра ОС AltLinux:
 ```
-[user@vhost-129 hello_printk]$ sudo insmod ./hello_printk.ko 
-[user@vhost-129 hello_printk]$ 
+[user@vhost-129 hello_printk]$ sudo insmod ./hello_printk.ko
 ```
 
 Проверяем наличие нашего модуля, среди модулей в адресном пространстве ядра:
 ```
 [user@vhost-129 hello_printk]$ sudo lsmod | grep hello_printk
 hello_printk           16384  0
-[user@vhost-129 hello_printk]$ 
 ```
 
 Выгружаем наш модуль из адресного пространства ядра:
 ```
-[user@vhost-129 hello_printk]$ sudo rmmod hello_printk 
-[user@vhost-129 hello_printk]$ 
+[user@vhost-129 hello_printk]$ sudo rmmod hello_printk
 ```
 
 Выполняем снова проверку наличия нашего модуля в адресном пространстве ядра:
 ```
 [user@vhost-129 hello_printk]$ sudo lsmod | grep hello_printk
-[user@vhost-129 hello_printk]$ 
 ```
 
 Проверяем результаты работы нашего модуля:
@@ -192,6 +183,7 @@ hello_printk ; USER=root ; COMMAND=/sbin/insmod ./hello_printk.ko
 hello_printk ; USER=root ; COMMAND=/sbin/rmmod hello_printk
 фев 08 14:33:19 vhost-129 kernel: Goodby, world!
 ...
+
 [user@vhost-129 hello_printk]$ 
 ```
 В системном журнале отображены все наши действия, которые мы выполняли с нашим модулем.
