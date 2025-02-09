@@ -10,12 +10,14 @@ _(altlinux make kernel object file)_
 ...
 Чтение списков пакетов... Завершено
 Построение дерева зависимостей... Завершено
-[user@vhost-129 ~]$ sudo apt-get dist-upgrade -y
 
+[user@vhost-129 ~]$ sudo apt-get dist-upgrade -y
 ...
 Завершено.
+
 [user@vhost-129 ~]$ uname -r
 6.1.115-un-def-alt1
+
 [user@vhost-129 ~]$ 
 ```
 
