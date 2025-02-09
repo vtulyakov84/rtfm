@@ -6,7 +6,7 @@ _(Read The Following Manual)_
 [Язык разметки Markdown](format/Markdown.md)
 
 ## Протоколы обмена
-[Протокол связи DLMS/COSEM](protocold/draft_0x0001.md)
+[Протокол связи DLMS/COSEM](protocold/dlmcosem_draft_0x0001.md)
 
 ## Linux
 
