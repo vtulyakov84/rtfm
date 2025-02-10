@@ -18,6 +18,8 @@ _(Read The Following Manual)_
 
 ## Alt Linux
 
+[Alt Linux. О ядрах в Alt Linux](altlinux/altlinux_about_kernel_1.md)
+
 [Alt Linux. Сборка объекта ядра](altlinux/altlinux_compile_ko_1.md)
 
 ## Разное
