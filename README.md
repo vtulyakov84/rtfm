@@ -16,9 +16,9 @@ _(Read The Following Manual)_
 
 [Сочетания клавиш Linux](linux/shortcut.md)
 
-#### Разработка модулей ядра
+## Alt Linux
 
-[Alt Linux. Сборка объекта ядра](linux/alt_compile_ko_1.md)
+[Alt Linux. Сборка объекта ядра](altlinux/altlinux_compile_ko_1.md)
 
 ## Разное
 
