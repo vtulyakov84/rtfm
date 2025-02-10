@@ -2,7 +2,7 @@
 
 Источник: [Alt Linux Wiki. Kernel](https://www.altlinux.org/Kernel)
 
-### Принятые обозначения:
+### Принятые обозначения
 <table>
     <tr>
         <td>
