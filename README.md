@@ -22,6 +22,9 @@ _(Read The Following Manual)_
 
 [Сборка объекта ядра Alt Linux](altlinux/altlinux_compile_ko_1.md)
 
+## Программирование
+[Golang. Портабальная установка в Linux](programming/golang_portable.md)
+
 ## Разное
 
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
