@@ -25,6 +25,7 @@ _(Read The Following Manual)_
 ## Разное
 
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
+[Ethereum](misc/draft_ethereum_0x01.md)
 
 [//]: <> (## Quick setup - if you've done this kind of thing before:)
 [//]: <> (https://github.com/vtulyakov84/rtfm.git)
