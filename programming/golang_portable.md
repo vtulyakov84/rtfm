@@ -3,7 +3,7 @@ _(golang portable, portable golang)_
 
 Случаи, когда необходима портабальная установка golang (файловое копирование с настройкой окружения разработки);
 1. Компьютер не имеет доступ к сети Интернет;
-2. Отсутствует возможность использовать `sudo`, из-за ограниений учётной записи.
+2. Отсутствует возможность использовать `sudo`, из-за ограниений учётной записи пользователя.
 
 Со страницы загрузки [golang](https://go.dev/dl/) загружаем последнюю версию языка программирования [go1.24.0.linux-amd64.tar.gz](https://go.dev/dl/go1.24.0.linux-amd64.tar.gz).
 
@@ -100,6 +100,53 @@ Hello world!
 -rw-r--r-- 1 user user      78 фев 18 22:26 main.go
 -rw-r--r-- 1 user user      77 фев 18 22:25 main.go~
 [user@vhost-129 HelloWorld]$ ./main 
+Hello world!
+[user@vhost-129 HelloWorld]$ 
+```
+
+### Инициализция проекта
+
+В каталоге с программой выполняем `go mod init main`:
+```
+user@vhost-129 HelloWorld]$ ls -l
+итого 2168
+-rwxr-xr-x 1 user user 2208801 фев 18 22:28 main
+-rw-r--r-- 1 user user      78 фев 18 22:26 main.go
+-rw-r--r-- 1 user user      77 фев 18 22:25 main.go~
+[user@vhost-129 HelloWorld]$ go mod init main
+go: creating new go.mod: module main
+go: to add module requirements and sums:
+	go mod tidy
+[user@vhost-129 HelloWorld]$ ls -l
+итого 2172
+-rw-r--r-- 1 user user      23 фев 18 22:36 go.mod
+-rw-r--r-- 1 user user      78 фев 18 22:26 main.go
+[user@vhost-129 HelloWorld]$ cat go.mod 
+module main
+
+go 1.24.0
+[user@vhost-129 HelloWorld]$
+```
+
+Теперь для запуска пакета в режиме интепритации можно выполнить следующую синтаксическую нотацию языка:
+```
+[user@vhost-129 HelloWorld]$ go run .
+Hello world!
+```
+
+Для компиляции пакета выполняем `go build .`:
+```
+[user@vhost-129 HelloWorld]$ ls -l
+итого 8
+-rw-r--r-- 1 user user 23 фев 18 22:36 go.mod
+-rw-r--r-- 1 user user 78 фев 18 22:26 main.go
+[user@vhost-129 HelloWorld]$ go build .
+[user@vhost-129 HelloWorld]$ ls -l
+итого 2168
+-rw-r--r-- 1 user user      23 фев 18 22:36 go.mod
+-rwxr-xr-x 1 user user 2208801 фев 18 22:40 main
+-rw-r--r-- 1 user user      78 фев 18 22:26 main.go
+[user@vhost-129 HelloWorld]$ ./main
 Hello world!
 [user@vhost-129 HelloWorld]$ 
 ```
