@@ -260,4 +260,8 @@ fi
 export PATH=$PATH:/home/user/develop/compilers/go/bin:/home/user/compilers/go/bin
 ```
 
-_Статья окончена! Благодарю за внимание!_
+## Чтива
+[Команды Go и переменные среды, которые должен знать каждый разработчик](https://nuancesprog.ru/p/16880/)
+
+_Статья окончена.
+Благодарю за внимание!_
