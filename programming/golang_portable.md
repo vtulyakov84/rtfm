@@ -237,7 +237,20 @@ General-purpose environment variables:
 ```
 
 #### Переменная окружения GOPATH
-Переменная окружения `GOPATH` определяет корень струкутуры файлового поддерева рабочих проектов пользователя. В нашем случае переменная окружения `GOPATH` содержит значение `/home/user/go`, не спотря на то, что проект `HelloWorld` мы расположили в каталоге `/home/develop/golang` (_надо будет изменить размещение проектов под значение переменной окружения GOPATH..._); 
+Переменная окружения `GOPATH` определяет корень струкутуры файлового поддерева рабочих проектов пользователя. В нашем случае переменная окружения `GOPATH` содержит значение `/home/user/go`, не спотря на то, что проект `HelloWorld` мы расположили в каталоге `/home/develop/golang`. 
+
+Меняем размещение переменной окружения GOPATH под каталог наших проек:
+```
+[user@vhost-129 Рабочий стол]$ go env | grep GOPATH
+GOPATH='/home/user/go'
+[user@vhost-129 Рабочий стол]$ go env -w GOPATH='/home/user/develop/golang'
+[user@vhost-129 Рабочий стол]$ ls /home/user/develop/golang/
+HelloWorld  test01hello
+[user@vhost-129 Рабочий стол]$ go env | grep GOPATH
+GOPATH='/home/user/develop/golang'
+[user@vhost-129 Рабочий стол]$ 
+``` 
+
 Переменная окружения `GOPATH` может переустанавливаться под каждый сменяемый проект в разработке.
 
 #### Переменная окружения GOROOT
