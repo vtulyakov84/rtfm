@@ -259,3 +259,5 @@ fi
 # Define user specific aliases and functions.
 export PATH=$PATH:/home/user/develop/compilers/go/bin:/home/user/compilers/go/bin
 ```
+
+_Статья окончена! Благодарю за внимание!_
