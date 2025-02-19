@@ -23,9 +23,9 @@ _(Read The Following Manual)_
 [Сборка объекта ядра Alt Linux](altlinux/altlinux_compile_ko_1.md)
 
 ## Программирование
-[Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install01.md.md)
+[Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
 
-[.NET 8. Варианты установки в ALT Linux](programming/altlinux_dotnet_8_install01.md)
+[.NET 8. Варианты установки в ALT Linux](programming/altlinux_dotnet_8_install.md)
 
 ## Разное
 
