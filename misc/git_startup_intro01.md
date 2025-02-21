@@ -137,3 +137,20 @@ git remote add origin https://github.com/vtulyakov84/project_name.git
 ```
 git push -u origin main
 ```
+
+## 4. Дальнешие манипуляции при внесении изменений
+
+Добавляем изменения во всех файлах проекта в локальный репозиторий:
+```
+PS D:\library\development\git\project_name> git add .
+```
+
+Выполняем фиксацию изменений в локальном репозитории `commit`:
+```
+PS D:\library\development\git\project_name> git commit -m="commit comment text"
+```
+
+Пушим локальный репозиторий в удаленный репозиторий  на github.com:
+```
+PS D:\library\development\git\project_name> git push -u origin master
+```
