@@ -15,7 +15,7 @@ PS D:\library\development\git\rtfm> git config --global user.email "vtulyakov84@
 
 Просматриваем статус репозитория проекта:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git status
+PS D:\library\development\git\project_name> git status
 fatal: not a git repository (or any of the parent directories): .git
 ```
 
@@ -23,13 +23,13 @@ fatal: not a git repository (or any of the parent directories): .git
 
 Выполняем инициализацию репозитория:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git init
-Initialized empty Git repository in D:/library/development/git/esp32s3_ConverterSerialToBluetooth/.git/
+PS D:\library\development\git\project_name> git init
+Initialized empty Git repository in D:/library/development/git/project_name/.git/
 ```
 
 Просматриваем статус репозитория проекта:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git status
+PS D:\library\development\git\project_name> git status
 On branch master
 
 No commits yet
@@ -52,14 +52,14 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Добавляем файлы проекта в локальный репозиторий:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git add .
+PS D:\library\development\git\project_name> git add .
 warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.vscode/extensions.json', LF will be replaced by CRLF the next time Git touches it
 ```
 
 Снова просматриваем состояние локального репозитория:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git status
+PS D:\library\development\git\project_name> git status
 On branch master
 
 No commits yet
@@ -78,7 +78,7 @@ Changes to be committed:
 
 Получаем сообщение, что файлы готовы к коммиту, выполняем коммит с сообщением о комите:
 ```
-PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git commit -m="first commit"
+PS D:\library\development\git\project_name> git commit -m="first commit"
 [master (root-commit) d8af5f7] =first commit
  8 files changed, 145 insertions(+)
  create mode 100644 .gitignore
@@ -101,17 +101,17 @@ PS D:\library\development\git\esp32s3_ConverterSerialToBluetooth> git commit -m=
 
 ### …or create a new repository on the command line
 ```
-echo "# esp32s3_ConverterSerialToBluetooth" >> README.md
+echo "# project_name" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/vtulyakov84/esp32s3_ConverterSerialToBluetooth.git
+git remote add origin https://github.com/vtulyakov84/project_name.git
 git push -u origin main
 ```
 
 ### …or push an existing repository from the command line
 ```
-git remote add origin https://github.com/vtulyakov84/esp32s3_ConverterSerialToBluetooth.git
+git remote add origin https://github.com/vtulyakov84/project_name.git
 git branch -M main
 ```
