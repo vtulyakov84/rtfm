@@ -27,6 +27,11 @@ PS D:\library\development\git\project_name> git init
 Initialized empty Git repository in D:/library/development/git/project_name/.git/
 ```
 
+Определяем имя мастер ветки:
+```
+PS D:\library\development\git\project_name> git branch -M master
+```
+
 Просматриваем статус репозитория проекта:
 ```
 PS D:\library\development\git\project_name> git status
@@ -114,4 +119,21 @@ git push -u origin main
 ```
 git remote add origin https://github.com/vtulyakov84/project_name.git
 git branch -M main
+```
+
+Для копирование локального репозитория в глобальный выполняем создание ветки
+```
+git branch -M main
+git remote add origin https://github.com/vtulyakov84/project_name.git
+git push -u origin main
+```
+
+Выполняем:
+```
+git remote add origin https://github.com/vtulyakov84/project_name.git
+```
+
+Выполняем `push` локального репозитория в удаленный (_при установленной системе git запрос авторизации пользователя появится при первом копировании локального репозитория_):
+```
+git push -u origin main
 ```
