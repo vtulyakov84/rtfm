@@ -168,7 +168,7 @@ PS D:\library\development\git\project_name> git commit -m="commit comment text"
 PS D:\library\development\git\project_name> git push -u origin master
 ```
 
-## <a id="attach1"> Приложение 1. [Коды git к файлам в VSCode </a>
+## <a id="attach1"> Приложение 1. Коды git к файлам в VSCode </a>
 При работе с файлами проекта в IDE VSCode, в дереве каталога напротив каждого файла возможно появление одного следующих символов:
 
 <kbd>A</kbd> - Added (This is a new file that has been added to the repository)
