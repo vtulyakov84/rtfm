@@ -171,10 +171,17 @@ PS D:\library\development\git\project_name> git push -u origin master
 При работе с файлами проекта в IDE VSCode, в дереве каталога напротив каждого файла возможно появление одного следующих символов:
 
 <kbd>A</kbd> - Added (This is a new file that has been added to the repository)
+
 <kbd>M</kbd> - Modified (An existing file has been changed)
+
 <kbd>D</kbd> - Deleted (a file has been deleted)
+
 <kbd>U</kbd> - Untracked (The file is new or has been changed but has not been added to the repository yet)
+
 <kbd>C</kbd> - Conflict (There is a conflict in the file)
+
 <kbd>R</kbd> - Renamed (The file has been renamed)
+
 <kbd>S</kbd> - Submodule (In repository exists another subrepository)
+
 <kbd>T</kbd> - Typechange (The file changed from symlink to regular file, or visa versa)
