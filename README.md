@@ -27,6 +27,8 @@ _(Read The Following Manual)_
 
 [.NET 8. Варианты установки в ALT Linux](programming/altlinux_dotnet_8_install.md)
 
+[Python. Tkinter. Вертикальная компоновка из 3х элементов (control, logger, statusbar)](programming/python_tkinter_pack_01.md)
+
 ## Разное
 
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
