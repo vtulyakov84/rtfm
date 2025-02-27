@@ -62,4 +62,5 @@ class CustomFrame():
         frame_logstat   .grid(row=1, column=0, sticky="nsew")
 ```
 
+### На выходе имеем следующий `ui-image`:
 ![ui-image на выходе?](images/python_tkinter_pack_01_img01.png)
