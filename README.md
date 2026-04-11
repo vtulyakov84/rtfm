@@ -22,6 +22,9 @@ _(Read The Following Manual)_
 
 [Сборка объекта ядра Alt Linux](altlinux/altlinux_compile_ko_1.md)
 
+## Docker
+[Запуск PostgreSQL в контейнере Docker](docker/README.md)
+
 ## Программирование
 [Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
 
