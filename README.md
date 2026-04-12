@@ -1,14 +1,18 @@
-# Руководства к прочтению
+## Руководства к прочтению
 _(Read The Following Manual)_
 
-## Форматы файлов
+### Разработка программного обеспечения
+
+[**The Twelve-Factor App** — методология разработки программного обеспечения как сервиса (SaaS)](programming/factor12saas/README.md)
+
+### Форматы файлов
 
 [Язык разметки Markdown](format/Markdown.md)
 
-## Протоколы обмена
+### Протоколы обмена
 [Протокол связи DLMS/COSEM](protocold/dlmcosem_draft_0x0001.md)
 
-## Linux
+### Linux
 
 [Отличие между терминалом и консолью в Linux](linux/difference_terminal_console.md)
 
@@ -16,26 +20,20 @@ _(Read The Following Manual)_
 
 [Сочетания клавиш Linux](linux/shortcut.md)
 
-## Alt Linux
+### Alt Linux
 
 [О ядрах в Alt Linux](altlinux/altlinux_about_kernel_1.md)
 
 [Сборка объекта ядра Alt Linux](altlinux/altlinux_compile_ko_1.md)
 
-## Docker
+### Docker
 [Запуск PostgreSQL в контейнере Docker](docker/README.md)
 
-## Программирование
-[Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
-
-[.NET 8. Варианты установки в ALT Linux](programming/altlinux_dotnet_8_install.md)
-
-[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](programming/python_tkinter_pack_01.md)
-
-## Разное
-
+### Разное
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
 
-[Ethereum](misc/draft_ethereum_0x01.md)
+[Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
+
+[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](programming/python_tkinter_pack_01.md)
 
 [Git. Работа с удалённым репозиторием](misc/git_startup_intro01.md)
