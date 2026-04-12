@@ -1,5 +1,5 @@
 ## Руководства к прочтению
-_(Read The Following Manual)_
+_(**R**ead **T**he **F**ollowing **M**anual)_
 
 ### Разработка программного обеспечения
 
