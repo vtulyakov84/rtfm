@@ -3,7 +3,7 @@ _(**R**ead **T**he **F**ollowing **M**anual)_
 
 ### Принципы разработки ПО
 
-[12 принципов разработки программного обеспечения как сервиса (SaaS) (**The Twelve-Factor App**)](programming/factor12saas/README.md)
+[12 принципов разработки программного обеспечения как сервиса (Software as a Service)](programming/factor12saas/README.md)
 
 ### Форматы файлов
 
