@@ -18,24 +18,23 @@ MIGRATIONS_DIR=./migrations
 ```yml
 services:
   postgres:
-    image:  postgres:15
+    image: postgres:15
     container_name: ${POSTGRES_CONTAINER_NAME}
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}  # рекомендуется добавить
     ports:
       - "${POSTGRES_PORT}:5432"
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
-    restart:
-      unless-stopped
+    restart: unless-stopped  # ← исправлено: на той же строке
     networks:
       - app-network
 
 networks:
   app-network:
     driver: bridge
-
 ```
 
 ```bash
