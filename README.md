@@ -6,7 +6,7 @@ _(**R**ead **T**he **F**ollowing **M**anual)_
 [12 принципов разработки программного обеспечения как сервиса (Software as a Service)](programming/factor12saas/README.md)
 
 ### Разработка ПО
-[Подробное руководство golang gtk (перевод с `datasea.cn`)](programming/golang_gtk/README.md)
+[Подробное руководство по Golang GTK: Разработка пользовательских элементов управления и навыки оформления темы (перевод с `datasea.cn`)](programming/golang_gtk_datasea_ch.md)
 
 ### Форматы файлов
 
