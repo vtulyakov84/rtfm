@@ -5,6 +5,9 @@ _(**R**ead **T**he **F**ollowing **M**anual)_
 
 [12 принципов разработки программного обеспечения как сервиса (Software as a Service)](programming/factor12saas/README.md)
 
+### Разработка ПО
+[Подробное руководство golang gtk](programming/golang_gtk/README.md)
+
 ### Форматы файлов
 
 [Язык разметки Markdown](format/Markdown.md)
