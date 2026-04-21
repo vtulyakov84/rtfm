@@ -30,10 +30,13 @@ _Материал общего назначения по направлению 
 [Сборка объекта ядра Alt Linux](altlinux/altlinux_compile_ko_1.md)
 
 ### Docker
+
 [Docker как система изоляции процессов](docker/02_docker_common.md)
+
 [Запуск PostgreSQL в контейнере Docker](docker/01_docker_postgresql.md)
 
 ### Разное
+
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
 
 [Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
