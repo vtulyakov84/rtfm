@@ -3,7 +3,7 @@ _Материал общего назначения по направлению 
 
 ### Принципы разработки ПО
 
-[12 принципов разработки программного обеспечения как сервиса (Software as a Service)](programming/factor12saas/README.md)
+[12 принципов разработки Software as a Service](programming/factor12saas/README.md)
 
 ### Разработка ПО
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](programming/golang_gtk_datasea_ch.md)
