@@ -36,10 +36,10 @@ _Материал общего назначения по направлению 
 
 ### Разное
 
+[Git. Установка и настройка авторизации на GitHub](misc/git_inst_and_auth.md)
+
 [Фонетика шестнадцатиричных чисел](misc/hex_phonetics.md)
 
 [Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](programming/python_tkinter_pack_01.md)
-
-[Git. Установка и настройка авторизации на GitHub](misc/git_inst_and_auth.md)
