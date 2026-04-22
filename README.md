@@ -42,4 +42,4 @@ _Материал общего назначения по направлению 
 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](programming/python_tkinter_pack_01.md)
 
-[Git. Работа с удалённым репозиторием](misc/git_startup_intro01.md)
+[Git. Установка и настройка авторизации на GitHub (misc/git_inst_and_auth.md)
