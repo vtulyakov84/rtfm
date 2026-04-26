@@ -7,6 +7,10 @@ _Материал общего назначения по направлению 
 ### Разработка ПО
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](programming/golang_gtk_datasea_ch.md)
 
+### Базы данных
+[PostgreSQL. Общий порядок работы, psql](database/01_postgres_common_psql.md)
+
+
 ### Форматы файлов
 
 [Язык разметки Markdown](format/Markdown.md)
@@ -43,3 +47,5 @@ _Материал общего назначения по направлению 
 [Golang. Портабальная установка в ALT Linux](programming/altlinux_golang_install.md)
 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](programming/python_tkinter_pack_01.md)
+
+test
