@@ -120,3 +120,52 @@ postgres=# GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public T
 # Все новые таблицы, которые создаст пользователь admin, будут доступны для чтения пользователю john
 postgres=# ALTER DEFAULT PRIVILEGES FOR USER admin IN SCHEMA public GRANT SELECT ON TABLES TO username;
 ```
+
+### Остановка и удаление БД
+
+```bash
+# Отображение установленных пакетов
+$ sudo rpm -qa | grep postgresql
+postgresql16-server-16.13-alt0.p10.1.x86_64
+postgresql16-16.13-alt0.p10.1.x86_64
+postgresql-common-1.0-alt8.noarch
+
+# Определить имя процесса базы данных
+$ sudo systemctl list-units | grep postgres
+postgresql.service
+loaded active running   PostgreSQL database server
+
+# Просмотр статуса работы сервиса
+$ sudo systemctl status postgresql.service
+● postgresql.service - PostgreSQL database server
+     Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: disab>
+     Active: active (running) since Sun 2026-04-26 07:52:17 +04; 35min ago
+    Process: 2800 ExecStartPre=/usr/bin/postgresql-check-db-dir ${PGDATA} (code=exited, st>
+    Process: 2819 ExecStart=/usr/bin/pg_ctl start -D ${PGDATA} -s -o -p ${PGPORT} -w -t 30>
+   Main PID: 2844 (postgres)
+      Tasks: 7 (limit: 4669)
+     Memory: 27.6M
+        CPU: 141ms
+     CGroup: /system.slice/postgresql.service
+lines 1-10
+
+# Остановка сервиса базы данных
+$ sudo systemctl stop postgresql.service
+
+# Удаление пакетов
+$ sudo rpm -e postgresql16-server-16.13-alt0.p10.1.x86_64 postgresql16-16.13-alt0.p10.1.x86_64 postgresql-common-1.0-alt8.noarch
+
+# Удаляем каталог
+$ sudo rm -rf /var/lib/pgsql/
+$ sudo rm -rf /var/lib/postgresql/
+
+# Удаление конфигурационных файлов
+$ sudo rm -rf /etc/postgresql
+
+# Проверка удаленных пакетов
+$ rpm -qa | grep postgres
+```
+
+Если команда ничего не вывела — PostgreSQL полностью удалён.
+
+**Важно:** Удаление каталога `/var/lib/pgsql/` удалит все ваши базы данных без возможности восстановления. Если нужно сохранить данные — сделайте резервную копию перед удалением.
