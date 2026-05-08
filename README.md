@@ -7,9 +7,11 @@ _Материал общего назначения по направлению 
 ### Разработка ПО
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
+### PHP
+[Установка composer(pages/programming/php/compose-install.md)]
+
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
-
 
 ### Форматы файлов
 
