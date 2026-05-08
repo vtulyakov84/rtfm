@@ -20,3 +20,8 @@ php -r "unlink('composer-setup.php');"
 ```bash
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+Далее, находясь в каталоге проект, например `/var/www/html`, выполняем инициализацию проекта:
+```bash
+composer init
+```
