@@ -8,7 +8,7 @@ _Материал общего назначения по направлению 
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
 ### PHP
-[Установка composer](pages/programming/php/composer-install.md)
+[Установка composer](pages/programming/php/composer-startup.md)
 
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
