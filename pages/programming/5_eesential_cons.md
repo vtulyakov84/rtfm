@@ -1,6 +1,6 @@
 # 5 важных моментов, которые помогут разработчикам не сбиться с пути
 
-Оригинал: [5 essential considerations for developers to stay on track (Shannon Mason, December 6, 2025)](https://tech.yahoo.com/computing/articles/5-essential-considerations-developers-stay-090000540.html)
+Оригинальный текст: [5 essential considerations for developers to stay on track (Shannon Mason, December 6, 2025)](https://tech.yahoo.com/computing/articles/5-essential-considerations-developers-stay-090000540.html)
 
 Что значит быть «на пути к цели» для разработчика и для всей команды?
 
