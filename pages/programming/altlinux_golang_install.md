@@ -246,3 +246,5 @@ export PATH=$PATH:/home/user/develop/compilers/go/bin:/home/user/compilers/go/bi
 
 _Статья окончена.
 Благодарю за внимание!_
+
+[Главная](../../README.md)
