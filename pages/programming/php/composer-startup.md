@@ -3,7 +3,7 @@
 #### Установка с командной строки
 Для быстрой установки Composer в текущем каталоге, выполните в терминале последовательно следующие команды:
 ```bash
-# Загружается установщик в текущий каталог
+# 1.a Загружается установщик в текущий каталог
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 
 # Выполняется проверка SHA-384 установщика
@@ -14,6 +14,11 @@ php composer-setup.php
 
 # Удаление установщика
 php -r "unlink('composer-setup.php');"
+```
+
+...если возникла ошибка при скачивании файла на шаге 1.а, скачиваем с github.com:
+```bash
+get https://github.com/composer/composer/releases/latest/download/composer.phar
 ```
 
 Для вызова composer из любого каталога, его необходимо поместить в переменную окружения `PATH` или переместить в каталог `/usr/local/bin`:
