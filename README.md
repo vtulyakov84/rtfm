@@ -57,3 +57,5 @@ _Материал общего назначения по направлению 
 Go-lang links:
 
 [REGORM - Simple and Extendable Repository Pattern with Go and GORM.](https://github.com/oneapplab/regorm/tree/main)
+
+[REMONGO - Simple and Extendable Repository Pattern with Go and Mongodb.](https://github.com/oneapplab/remongo)
