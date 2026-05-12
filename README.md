@@ -51,3 +51,8 @@ _Материал общего назначения по направлению 
 [Golang. Портабальная установка в ALT Linux](pages/programming/altlinux_golang_install.md)
 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python_tkinter_pack_01.md)
+
+
+---
+Go-lang links:
+[REGORM - Simple and Extendable Repository Pattern with Go and GORM.](https://github.com/oneapplab/regorm/tree/main)
