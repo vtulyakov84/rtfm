@@ -4,6 +4,8 @@ _Материал общего назначения по направлению 
 
 [12 принципов разработки Software as a Service](pages/programming/factor12saas/README.md)
 
+[5 важных моментов, которые помогут разработчикам не сбиться с пути](pages/programming/5_eesential_cons.md)
+
 ### Разработка ПО
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
