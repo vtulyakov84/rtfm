@@ -25,14 +25,25 @@ $ sudo psql -U postgres
 psql (16.13)
 Введите "help", чтобы получить справку.
 
-postgres=# 
+postgres=#
+```
 
-# Подключение к удаленному серверу
+### Варианты подключения к серверу БД
+```bash
+# ...с указанием пользователя и базы данных
+$ psql -U postgres -d db_name
+
+# ...с указанием сервера БД, порта, пользователя и базы данных
 $ psql -h localhost -p 5432 -U username -d db_name
 ```
 
 ### Основные команды
 ```bash
+# Показать список всех пользователей (ролей)
+postgres=# \du
+
+# Переключение на другого пользователя
+
 # Показать список всех баз данных
 postgres=# \l
 postgres=# \list
@@ -45,9 +56,6 @@ postgres=# \dt
 
 # Отобразить струтктура (схему) таблицы
 postgres=# \d table_name
-
-# Показать список всех пользователей (ролей)
-postgres=# \du
 
 # Отобразить информацию о текущем подключении
 postgres=# \conninfo
@@ -121,7 +129,7 @@ postgres=# GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public T
 postgres=# ALTER DEFAULT PRIVILEGES FOR USER admin IN SCHEMA public GRANT SELECT ON TABLES TO username;
 ```
 
-### Остановка и удаление БД
+### Остановка и удаление PostgreSQL
 
 ```bash
 # Отображение установленных пакетов
