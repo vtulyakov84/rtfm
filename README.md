@@ -22,7 +22,7 @@ _Материал общего назначения по направлению 
 [Язык разметки Markdown](pages/format/Markdown.md)
 
 ### Протоколы обмена
-[Протокол связи DLMS/COSEM](pages/protocold/dlmcosem_draft_0x0001.md)
+[Протокол связи DLMS/COSEM](pages/smartmeters/pages/dlmcosem_draft_0x0001.md)
 
 ### Linux
 
