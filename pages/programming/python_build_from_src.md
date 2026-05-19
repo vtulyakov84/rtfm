@@ -91,13 +91,13 @@ Python-3.14.4]$ cd ~
 
 
 # Удаляем свборочные/установочные файлы
-~]$ sudo rm -rf /tmp/Python-3.14.5/
+$ sudo rm -rf /tmp/Python-3.14.5/
 
 
 
 # Скопированный с Интернета архив `Python-3.14.5.tgz` перемещаем в домашний каталог
-~]$ mv /tmp/Python-3.14.5.tgz ~
+$ mv /tmp/Python-3.14.5.tgz ~
 
 # ... или удаляем
-~]$ rm -f /tmp/Python-3.14.5.tgz
+$ rm -f /tmp/Python-3.14.5.tgz
 ```
