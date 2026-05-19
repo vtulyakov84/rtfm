@@ -23,7 +23,9 @@ _Материал общего назначения по направлению 
 
 ### Smart Metering
 [Протокол связи DLMS/COSEM](pages/smartmeters/pages/dlmcosem_draft_0x0001.md)
+
 [Использование `Gurux`](pages/smartmeters/gurux/README.md)
+
 ### Linux
 
 [Отличие между терминалом и консолью в Linux](pages/linux/difference_terminal_console.md)
