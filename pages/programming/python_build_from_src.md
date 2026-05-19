@@ -53,7 +53,7 @@ $ make -j$(nproc)
 
 
 # Выполняем установку
-# `altinstall`` - устанавливает Python как python3.14 (безопасно)
+# `altinstall`  - устанавливает Python как python3.14 (безопасно)
 # `install`     - перезаписывает системный python3 (может сломать систему!)
 $ sudo make altinstall
 
