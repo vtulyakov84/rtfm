@@ -1,4 +1,4 @@
-# Сборка Python 3.14.5 из исходных кодов
+# Сборка Python 3.14.5 из исходных кодов в ОС Alt Linux
 
 Оригинальный текст: [https://github.com/DataSithAi/Python314-alt-linux-install/blob/main/python314-alt-linux-guide.md](https://github.com/DataSithAi/Python314-alt-linux-install/blob/main/python314-alt-linux-guide.md)
 

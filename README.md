@@ -38,6 +38,8 @@ _Материал общего назначения по направлению 
 
 [Сборка объекта ядра Alt Linux](pages/altlinux/altlinux_compile_ko_1.md)
 
+[Сборка Python 3.14.5 из исходных кодов в ОС Alt Linux](pages/programming/python_build_from_src.md)
+
 ### Docker
 
 [Docker как система изоляции процессов](pages/docker/02_docker_common.md)
