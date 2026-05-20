@@ -22,7 +22,7 @@ Python 3.9.20
 
 
 
-# Меняем локацию на временны каталог
+# Меняем локацию на каталог для хранения временных файлов
 $ cd /tmp/
 
 
@@ -43,7 +43,7 @@ $ cd Python-3.14.5/
 
 
 # Выполняем конфигурацию сборки
-$ ./configure --enable-optimization --prefix=/usr/local
+$ ./configure --enable-optimizations --prefix=/usr/local
 
 
 
