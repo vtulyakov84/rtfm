@@ -29,6 +29,8 @@ _Материал общего назначения по направлению 
 
 [Настройка окружения ОС Alt Linux для разработки на Java](pages/programming/java/01_install_hello_world.md)
 
+[Использование jar-пакетов при сборке приложений Java](page/programming/java/02_)
+
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
 
