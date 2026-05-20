@@ -18,9 +18,9 @@ _Материал общего назначения по направлению 
 
 [Сборка Python 3.14.5 из исходных кодов в ОС Alt Linux](pages/programming/python/python_build_from_src.md)
 
-[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python/python_tkinter_pack_01.md)
-
 [Python. Портабальная установка whl-файлов](pages/programming/python/python_portable_whl.md)
+
+[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python/python_tkinter_pack_01.md)
 
 ### Golang
 
