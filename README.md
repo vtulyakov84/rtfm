@@ -14,6 +14,17 @@ _Материал общего назначения по направлению 
 ### PHP
 [Установка composer](pages/programming/php/composer-startup.md)
 
+### Python
+
+[Сборка Python 3.14.5 из исходных кодов в ОС Alt Linux](pages/programming/python/python_build_from_src.md)
+
+[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python/python_tkinter_pack_01.md)
+
+### Golang
+
+[Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
+
+
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
 
@@ -40,8 +51,6 @@ _Материал общего назначения по направлению 
 
 [Сборка объекта ядра Alt Linux](pages/altlinux/altlinux_compile_ko_1.md)
 
-[Сборка Python 3.14.5 из исходных кодов в ОС Alt Linux](pages/programming/python_build_from_src.md)
-
 ### Docker
 
 [Docker как система изоляции процессов](pages/docker/02_docker_common.md)
@@ -53,11 +62,6 @@ _Материал общего назначения по направлению 
 [Git. Установка и настройка авторизации на GitHub](pages/misc/git_inst_and_auth.md)
 
 [Фонетика шестнадцатиричных чисел](pages/misc/hex_phonetics.md)
-
-[Golang. Портабальная установка в ALT Linux](pages/programming/altlinux_golang_install.md)
-
-[Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python_tkinter_pack_01.md)
-
 
 ---
 Go-lang links:
