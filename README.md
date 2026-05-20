@@ -8,9 +8,6 @@ _Материал общего назначения по направлению 
 
 [Cycle (версия 1.0): открытая методология разработки программного обеспечения](pages/programming/cycle_v1_0_software_dev_meth.md)
 
-### Разработка ПО
-[Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
-
 ### PHP
 [Установка composer](pages/programming/php/composer-startup.md)
 
@@ -23,6 +20,8 @@ _Материал общего назначения по направлению 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python/python_tkinter_pack_01.md)
 
 ### Golang
+
+[Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
 [Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
 
