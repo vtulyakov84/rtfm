@@ -20,9 +20,7 @@
 # Копируем пакет gurux.common, version: 1.0.19
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.common/1.0.19/gurux.common-1.0.19.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.common/1.0.19/gurux.common-1.0.19-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.common/1.0.19/gurux.common-1.0.19-javadoc.jar
 
 
@@ -30,9 +28,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.common/1.0.19/gurux.common
 # Копируем пакет gurux.dlms, version: 4.0.93
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.dlms/4.0.93/gurux.dlms-4.0.93.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.dlms/4.0.93/gurux.dlms-4.0.93-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.dlms/4.0.93/gurux.dlms-4.0.93-javadoc.jar
 
 
@@ -40,9 +36,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.dlms/4.0.93/gurux.dlms-4.0
 # Копируем пакет gurux.net
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.net/1.0.32/gurux.net-1.0.32.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.net/1.0.32/gurux.net-1.0.32-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.net/1.0.32/gurux.net-1.0.32-javadoc.jar
 
 
@@ -50,9 +44,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.net/1.0.32/gurux.net-1.0.3
 # Копируем пакет gurux.serial
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.serial/1.0.31/gurux.serial-1.0.31.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.serial/1.0.31/gurux.serial-1.0.31-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.serial/1.0.31/gurux.serial-1.0.31-javadoc.jar
 
 
@@ -60,9 +52,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.serial/1.0.31/gurux.serial
 # Копируем пакет gurux.mqtt
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.mqtt/1.0.4/gurux.mqtt-1.0.4.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.mqtt/1.0.4/gurux.mqtt-1.0.4-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.mqtt/1.0.4/gurux.mqtt-1.0.4-javadoc.jar
 
 
@@ -70,9 +60,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.mqtt/1.0.4/gurux.mqtt-1.0.
 # Копируем пакет gurux.sms
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.sms/1.0.23/gurux.sms-1.0.23.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.sms/1.0.23/gurux.sms-1.0.23-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.sms/1.0.23/gurux.sms-1.0.23-javadoc.jar
 
 
@@ -80,9 +68,7 @@ $ wget https://repo1.maven.org/maven2/org/gurux/gurux.sms/1.0.23/gurux.sms-1.0.2
 # Копируем пакет gurux.terminal
 
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.terminal/1.0.28/gurux.terminal-1.0.28.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.terminal/1.0.28/gurux.terminal-1.0.28-sources.jar
-
 $ wget https://repo1.maven.org/maven2/org/gurux/gurux.terminal/1.0.28/gurux.terminal-1.0.28-javadoc.jar
 ```
 
