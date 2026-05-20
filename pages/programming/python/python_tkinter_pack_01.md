@@ -65,4 +65,4 @@ class CustomFrame():
 ### На выходе имеем следующий `ui-image`:
 ![ui-image на выходе?](images/python_tkinter_pack_01_img01.png)
 
-[Главная](../../README.md)
+[Главная](/README.md)
