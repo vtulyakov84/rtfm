@@ -25,6 +25,9 @@ _Материал общего назначения по направлению 
 
 [Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
 
+### Java
+
+[Настройка окружения ОС Alt Linux для разработки на Java](pages/programming/java/01_install_hello_world.md)
 
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
