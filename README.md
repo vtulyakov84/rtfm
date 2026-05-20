@@ -20,6 +20,8 @@ _Материал общего назначения по направлению 
 
 [Python. Tkinter. Вертикальная компоновка из 3х элементов (user-control, process-journal, statusbar)](pages/programming/python/python_tkinter_pack_01.md)
 
+[Python. Портабальная установка whl-файлов](pages/programming/python/python_portable_whl.md)
+
 ### Golang
 
 [Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
