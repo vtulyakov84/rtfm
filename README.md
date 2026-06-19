@@ -21,6 +21,8 @@ _Материал общего назначения по направлению 
 
 ### Golang
 
+[Golang/Gtk3. HelloWorld](pages/programming/golang/golang_gtk3_helloworld.md) 
+
 [Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
 [Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
