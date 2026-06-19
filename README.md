@@ -21,9 +21,9 @@ _Материал общего назначения по направлению 
 
 ### Golang
 
-[Golang/Gtk3. HelloWorld](pages/programming/golang/golang_gtk3_helloworld.md) 
+[HelloWorld на GTK3](pages/programming/golang/golang_gtk3_helloworld.md) 
 
-[Golang/Gtk3. Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
+[Разработка пользовательских элементов управления и оформления темы](pages/programming/golang_gtk_datasea_ch.md)
 
 [Golang. Портабальная установка в ALT Linux](pages/programming/golang/altlinux_golang_install.md)
 
@@ -32,6 +32,9 @@ _Материал общего назначения по направлению 
 [Настройка окружения ОС Alt Linux для разработки на Java](pages/programming/java/01_install_hello_world.md)
 
 [Использование jar-пакетов при сборке приложений Java](pages/programming/java/02_add_offline_packages.md)
+
+### C/C++
+[Hello World на GTK+](pages/programming/cplusplus/gtkplus_helloworld_cmake.md)
 
 ### Базы данных
 [PostgreSQL. Общий порядок работы, psql](pages/database/01_postgres_common_psql.md)
