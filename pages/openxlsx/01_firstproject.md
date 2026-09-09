@@ -8,6 +8,10 @@
 
 #### Хостовая система:
 ```bash
+$ cat /etc/os-release | grep -E '^NAME=|^VERSION='
+NAME="ALT Workstation"
+VERSION="10.4"
+
 $ uname -a
 Linux host 6.1.173-un-def-alt1 #1 SMP PREEMPT_DYNAMIC Fri May 15 16:00:43 UTC 2026 x86_64 GNU/Linux
 ```
