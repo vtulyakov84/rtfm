@@ -69,7 +69,7 @@ _Материал общего назначения по направлению 
 [Запуск PostgreSQL в контейнере Docker](pages/docker/01_docker_postgresql.md)
 
 ### OpenXLSX
-[Alt Linux, C/C++ Первый проект](pages/openxlsx/01_firstproject.md)
+[GNU\Linux, C/C++ Инициализация проекта](pages/openxlsx/01_firstproject.md)
 
 ### Разное
 
