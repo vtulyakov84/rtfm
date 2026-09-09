@@ -68,6 +68,9 @@ _Материал общего назначения по направлению 
 
 [Запуск PostgreSQL в контейнере Docker](pages/docker/01_docker_postgresql.md)
 
+### OpenXLSX
+[Alt Linux, C/C++ Первый проект](pages/openxlsx/01_firstproject.md)
+
 ### Разное
 
 [Git. Установка и настройка авторизации на GitHub](pages/misc/git_inst_and_auth.md)
